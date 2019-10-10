@@ -24,3 +24,20 @@ detail.job = "programmer";
 console.log(detail);
 
 
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//creating objects using new operator
+
+var details = new Object();
+
+console.log(details); //{} empty
+details.name = "anusha";
+details.age = 10;
+
+console.log(details.name);
+console.log(details['name']);
+
+details.age=100;
+console.log(details['age']);
+
+console.log(details)

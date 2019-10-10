@@ -218,3 +218,38 @@ yearsUntilRetirement("Mike", 1921);
 yearsUntilRetirement("Alice", 1990);
 yearsUntilRetirement("Michal", 2015);
 yearsUntilRetirement("Hana", 2019);
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// statements (performs task) and expressions (gives o/p)
+
+
+
+
+//This is function statement
+function someFunction(parameters){
+    //
+}
+
+
+//This is function expression
+var someFunction = function(parameters){
+    //
+}
+
+
+
+
+//simple expressions
+3 + 4;
+var a=10;
+var b=2;
+var x = a * b;
+
+
+//statement
+if(x===5)
+{
+    //
+}

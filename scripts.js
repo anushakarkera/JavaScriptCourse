@@ -49,7 +49,14 @@ console.log(birthyear);
 birthyear = now - 22 * 2; // (operator precedence)
 console.log(birthyear);
 
-myAge = (3 + 2) * 4 - 6; // (),*,-
-console.log(myAge)
+newAge = myAge = (3 + 2) * 4 - 6; // (),*,-
+console.log(myAge);// o/p :- 14
+console.log(newAge);// o/p :- 14  newAge is not declared
+
+myAge++; 
+console.log(myAge);
+myAge *= 2;
+console.log(myAge); 
+
 
 

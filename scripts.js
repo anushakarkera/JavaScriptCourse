@@ -178,3 +178,43 @@ else if(player3Score > player1Score && player3Score > player2Score)
     console.log("player 3 wins with "+player3Score);
 else
     console.log("there is a draw");
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Functions:
+
+
+
+function calculateAge(yearOfBirth)
+{
+    var age = 2019 - yearOfBirth;
+    return age;
+}
+
+var JohnAge = calculateAge(1990); //code reusability
+var MikeAge = calculateAge(1980);
+var SmithAge = calculateAge(1915);
+console.log(JohnAge);
+console.log(MikeAge);
+console.log(SmithAge);
+
+
+function yearsUntilRetirement(name,yearOfBirth)
+{
+    var age = calculateAge(yearOfBirth);
+    var retirement = 65 - age;
+    if(retirement >= 0)
+        console.log(name + " retires in " + retirement + " years");
+    else
+        console.log(name + " is already retired");
+}
+
+
+yearsUntilRetirement("john", 1976);
+yearsUntilRetirement("Smith", 1896);
+yearsUntilRetirement("Mike", 1921);
+yearsUntilRetirement("Alice", 1990);
+yearsUntilRetirement("Michal", 2015);
+yearsUntilRetirement("Hana", 2019);

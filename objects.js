@@ -97,4 +97,33 @@ console.log(details1.calculateAge());
 var age = details1.calculateAge();
 details1.age = age;
 
-console.log(details1)
+console.log(details1);
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// optimised object
+
+
+var details2 =
+{
+    name:"anusha",
+    dob:"17/06/1997",
+    isMarried: false,
+    qualification: "engineer",
+    job:"developer",
+    yearOfBirth:1997,
+    family : ['ramya','ravindra','shailaja'],
+    calculateAge: function yearOfBirth(){
+        this.age = 2019-this.yearOfBirth;
+    }
+};
+
+
+details2.calculateAge();
+console.log(details2);

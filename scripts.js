@@ -97,3 +97,47 @@ if(23 === "23")
     console.log("equal")
 else
     console.log("unequal");
+
+
+
+// boolean logic and switch
+var age = 10;
+if(age < 14)
+    console.log("age is lesser than 14");
+else if(age > 14)
+    console.log("age is greater than 14");
+else
+    console.log("age is equal to 14");
+
+
+
+
+var age = 25;
+if(age < 20)
+    console.log("John is teenager");
+else if(age >= 20 && age < 30)
+    console.log("John is young man");
+else
+    console.log("John is man");
+
+
+
+
+var job = "";
+
+job = prompt("what does John do?");
+
+switch(job)
+{
+    case "teacher":
+        console.log("John is a teacher");
+        break;
+    case "engineer":
+        console.log("John is an engineer");
+        break;
+    case "doctor":
+        console.log("John is a doctor");
+        break;
+    default:
+        console.log("John does something else");
+}

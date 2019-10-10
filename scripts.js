@@ -14,23 +14,39 @@
 
 
 
-// var name="anu";
-var age=22;
-console.log(name + age)
-//main note :---
-console.log(age + age);
-//outputs:--- 44 (not 22 22)
-var job,married;
-console.log(job);//undefined
-job = 'teacher';
-married = false;
+// // var name="anu";
+// var age=22;
+// console.log(name + age)
+// //main note :---
+// console.log(age + age);
+// //outputs:--- 44 (not 22 22)
+// var job,married;
+// console.log(job);//undefined
+// job = 'teacher';
+// married = false;
 
 
 
-console.log(name +' '+age+' '+job+' '+married);
-age = 'anusha'; //valid since age is declared as var
-console.log(age);
-var nickName = prompt('what is your nickname');
-console.log(nickName);
-alert(name +' '+age+' '+job+' '+married+' '+nickName);
+// console.log(name +' '+age+' '+job+' '+married);
+// age = 'anusha'; //valid since age is declared as var
+// console.log(age);
+// var nickName = prompt('what is your nickname');
+// console.log(nickName);
+// alert(name +' '+age+' '+job+' '+married+' '+nickName);
+
+
+
+//operators:
+//Operator precedence (JS) refer links: codingheroes.io/resources
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+
+
+
+
+var now = 2019;
+var birthyear = now - 22;
+console.log(birthyear);
+birthyear = now - 22 * 2; // (operator precedence)
+console.log(birthyear);
+
 

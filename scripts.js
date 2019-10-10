@@ -72,3 +72,15 @@ else
 
 
 
+
+isMarried = false;
+if(isMarried)
+{
+    console.log("YES");
+}
+else{
+    console.log("NO");
+}
+
+
+

@@ -25,3 +25,12 @@ console.log(job);//undefined
 job = 'teacher';
 married = false;
 
+
+
+console.log(name +' '+age+' '+job+' '+married);
+age = 'anusha'; //valid since age is declared as var
+console.log(age);
+var nickName = prompt('what is your nickname');
+console.log(nickName);
+alert(name +' '+age+' '+job+' '+married+' '+nickName);
+

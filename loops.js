@@ -1,0 +1,74 @@
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Loops:
+
+
+for (var i=0;i<10;i++)
+{
+    console.log(i);
+}
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Loop through array
+
+
+var names = ['anusha','aaaa','xyz','mno'];
+
+for (var i=0;i<names.length;i++)
+{
+    console.log(names[i])
+}
+
+
+console.log("printing array in reverse order")
+for(var i=names.length-1;i>=0;i--)
+{
+    console.log(names[i]);
+}
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//while loops
+
+
+console.log("while loop");
+var i=0;
+while(i<=names.length-1)
+{
+    console.log(names[i]);
+    i++;
+}
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//using breaks and continue
+
+console.log("breaks");
+
+for (var i=0;i<=10;i++)
+{
+    console.log(i);
+    if(i==4)
+    {
+        break;
+    }
+}
+
+
+
+
+console.log("continue");
+
+for (var i=0;i<=10;i++)
+{
+  
+    if(i==4)
+    {
+        continue;
+    }
+    console.log(i);
+}

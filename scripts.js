@@ -84,3 +84,16 @@ else{
 
 
 
+// difference b/w ==  and  ===
+if(23 == "23") //returns true
+    console.log("equal")
+
+if(false == "false")  //returns false
+    console.log("equal")
+console.log(false=="false") // o/p :- false
+
+
+if(23 === "23")
+    console.log("equal")
+else
+    console.log("unequal");

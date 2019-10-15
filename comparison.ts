@@ -1,11 +1,16 @@
 //******************************************************************************************************************************
 //ts supports optional parameter
 
-function add(a,b?)
+function add1(a,b?)
 {
 
 }
 
+
+
+//********************************************************************************************************************
+//variable declaration 
+let text1: string = "aaa"; 
 
 
 //*******************************************************************************************************************************
@@ -23,16 +28,24 @@ function add(a,b?)
 
 
 
-interface person{
-    name:String,
-    id:123
-}
+// interface person{
+//     name:String, 
+//     id:number
+// }
 
 
 
 
 
-enum color{
-    r,g,b
-};
-console.log(color.r+" "+color.g+" "+color.b);
+// enum color{
+//     r,g,b
+// };
+// console.log(color.r+" "+color.g+" "+color.b);
+
+
+
+//*********************************************************************************************************************************
+//below code gives error since ts is strongly typed
+// var namesnew:number[] = ['anusha', 'ramya', 'shailaja', 'ravindra', 12];
+
+

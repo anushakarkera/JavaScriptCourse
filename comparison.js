@@ -1,12 +1,13 @@
-//**********************************************************************************************************************
-//js doesnot support optional parameters
+//******************************************************************************************************************************
+//js doesnot support optional parameter
 
-
-// function add(a,b?)
-// {
-
+// function add(a, b?) {
 // }
 
+
+//********************************************************************************************************************
+//variable declaration 
+// let text1: string = "aaa";              //gives error bcos js is weekly typed.
 
 
 
@@ -31,7 +32,8 @@
 //js does not support enum
 
 
-// enum color{
+//below code gives error
+// enum color{             
 //     red,green,blue
 // };
 
@@ -40,4 +42,10 @@
 // const colorred = 0;
 // const colorgreen = 1;
 // const colorblue = 2;
+
+
+//*********************************************************************************************************************************
+//below code gives error since js is weekly typed
+
+// var names:number[] = ['anusha', 'ramya', 'shailaja', 'ravindra', 12];
 
